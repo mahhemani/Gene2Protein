@@ -1,0 +1,19 @@
+Base Properties 
+OWL	db/Gene_to_Protein/Gene_to_Protein_OWL.OWL
+PIXEL_UPDATE	true
+ENGINE	Gene_to_Protein
+SOLR_RELOAD	false
+FILL_EMPTY_DATATYPES	false
+HIDDEN_DATABASE	false
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_INSIGHTS	db/Gene_to_Protein/insights_database
+RDBMS_TYPE	H2_DB
+DREAMER	db/Gene_to_Protein/Gene_to_Protein_Questions.properties
+
+
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768
+USE_OUTER_JOINS	false
+# USE_CONNECTION_POOLING	true
